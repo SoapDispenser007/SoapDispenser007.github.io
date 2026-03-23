@@ -1,0 +1,109 @@
+/* ---------------------------
+   General Body Styles
+--------------------------- */
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif; /* readable & fun */
+    background: #1e3f66; /* deep calm blue */
+    color: #000; /* default text color inside boxes */
+    line-height: 1.6;
+}
+
+/* ---------------------------
+   Header Styles
+--------------------------- */
+header {
+    background: #24527a; /* slightly lighter blue for contrast */
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* ---------------------------
+   Navigation Bar
+--------------------------- */
+nav {
+    background: #1a3350; /* darker blue strip */
+}
+
+nav ul {
+    list-style: none;       /* remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;          /* horizontal menu */
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;         /* spacing between links */
+}
+
+nav a {
+    text-decoration: none;  /* no underline */
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #00bfff;    /* light blue highlight */
+    color: #000;
+    border-radius: 5px;
+}
+
+/* ---------------------------
+   Main Content Box
+--------------------------- */
+.content {
+    max-width: 900px;
+    margin: 30px auto;       /* center on page */
+    padding: 30px 20px;
+    background: white;       /* content box color */
+    color: #000;             /* text inside the box */
+    border-radius: 15px;     /* rounded corners */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* subtle shadow */
+}
+
+/* Headings inside content */
+h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    padding-bottom: 5px;
+}
+
+/* Paragraphs and lists inside content */
+p, li, dd {
+    font-size: 1.1em;
+}
+
+/* ---------------------------
+   Images
+--------------------------- */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* ---------------------------
+   Footer
+--------------------------- */
+footer {
+    background: #1a3350;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #ccc;
+    border-top: 2px solid #24527a;
+}
